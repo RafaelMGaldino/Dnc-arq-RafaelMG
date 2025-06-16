@@ -1,0 +1,57 @@
+.button{
+    border-radius: 18px;
+    border: none;
+    column-gap: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+   padding: 35px 40px;
+    
+}
+/*BUTTON PRIMARY*/
+.button.primary {
+    background-color: #0C70F2;
+    color: white;
+
+}
+
+.button.primary:hover {
+    background-color: #0056b3;
+   
+}
+
+/*BUTTON SECONDARY*/
+.button.secondary {
+    background-color: #1d1d1d;
+    color: white;
+}
+.button.secondary:hover {
+    background-color: #4D5053;
+}
+
+/*BUTTON TERTIARY*/
+.button.outline {
+    background-color: white;
+    border: 2px solid #0C70F2;
+    color: #0C70F2;
+}
+
+.button.outline:hover {
+    background-color: #0C70F2;
+    color: white;
+}
+
+/*BUTTON DISABLED*/
+.button:disabled,
+.button:disabled:hover {
+    background-color: #D3D3D3;
+    color: #A9A9A9;
+    cursor: not-allowed;
+}
+.button-liked{
+    padding: 3px;
+    border: none;
+    background-color: white;
+    margin: 5px;
+    
+}
