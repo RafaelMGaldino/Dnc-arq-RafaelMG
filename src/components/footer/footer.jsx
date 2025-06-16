@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css';
+import './footer.css';
 
 import Logo from '../../assets/dnc-logo.svg';
 import FacebookLogo from '../../assets/faceIcon.svg';
